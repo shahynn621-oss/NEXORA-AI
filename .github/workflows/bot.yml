@@ -1,7 +1,7 @@
 name: NEXORA AI
 
 on:
-workflow_dispatch
+workflow_dispatch:
 
 jobs:
 run-bot:
