@@ -6,10 +6,9 @@ workflow_dispatch:
 jobs:
 run-bot:
 runs-on: ubuntu-latest
-
 steps:
-  - name: Get repository files
-    uses: actions/checkout@v4
+- name: Get repository files
+uses: actions/checkout@v4
 
   - name: Set up Python
     uses: actions/setup-python@v5
